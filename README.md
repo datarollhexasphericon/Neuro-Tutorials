@@ -24,7 +24,7 @@ This repository contains a series of tutorials designed to help researchers and 
 
 ### 1. Data Quality Control
 
-Ensure your data is of good quality for further processing.
+Ensure your data is of good quality for further processing of T1W, T2W and DWI images.
 
 - [Data Quality Control Overview](docs/data_qc.md)
 
@@ -39,25 +39,25 @@ In the following guide, we will go through the following steps:
 
 This guide was very much based the [Andy's Brain Book](https://andysbrainbook.readthedocs.io/en/latest/MRtrix/MRtrix_Course), the [MRtrix official documentation](https://mrtrix.readthedocs.io/en/3.0_rc1/reference/scripts/dwipreproc.html), the [B.A.T.M.A.N tutorial](https://osf.io/fkyht/wiki/home/) and the [TractSeg official documentation](https://github.com/MIC-DKFZ/TractSeg).
 
-#### A. Preprocessing (MRtrix)
+##### 1. Preprocessing (MRtrix)
 
 Learn how to work with MRtrix for the processing of diffusion MRI data.
 
 - [Preprocessing with MRtrix](docs/preproc_mrtrix.md)
 
-#### B. Tractography (MRtrix)
+##### 2. Tractography (MRtrix)
 
 Generate anatomically constrained tractograms.
 
 - [MRtrix Overview](docs/mrtrix.md)
 
-#### C. Bundle segmentation (TractSeg)
+##### 3. Bundle segmentation (TractSeg)
 
 Automate the segmentation of white matter tracts using TractSeg.
 
 - [TractSeg Overview](docs/tractseg.md)
 
-#### D. Bundle Visualization
+##### 4. Bundle Visualization
 
 Visualize fiber bundles effectively.
 
