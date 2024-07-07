@@ -39,25 +39,25 @@ In the following guide, we will go through the following steps:
 
 This guide was very much based the [Andy's Brain Book](https://andysbrainbook.readthedocs.io/en/latest/MRtrix/MRtrix_Course), the [MRtrix official documentation](https://mrtrix.readthedocs.io/en/3.0_rc1/reference/scripts/dwipreproc.html), the [B.A.T.M.A.N tutorial](https://osf.io/fkyht/wiki/home/) and the [TractSeg official documentation](https://github.com/MIC-DKFZ/TractSeg).
 
-##### 1. Preprocessing (MRtrix)
+#### --- Preprocessing (MRtrix) ---
 
 Learn how to work with MRtrix for the processing of diffusion MRI data.
 
 - [Preprocessing with MRtrix](docs/preproc_mrtrix.md)
 
-##### 2. Tractography (MRtrix)
+#### --- Tractography (MRtrix) ---
 
 Generate anatomically constrained tractograms.
 
 - [MRtrix Overview](docs/mrtrix.md)
 
-##### 3. Bundle segmentation (TractSeg)
+#### --- Bundle segmentation (TractSeg) ---
 
 Automate the segmentation of white matter tracts using TractSeg.
 
 - [TractSeg Overview](docs/tractseg.md)
 
-##### 4. Bundle Visualization
+#### --- Bundle Visualization ---
 
 Visualize fiber bundles effectively.
 
