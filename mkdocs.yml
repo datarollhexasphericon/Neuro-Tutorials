@@ -1,0 +1,49 @@
+site_name: Lost neuroscientist
+
+nav:
+  - Home: index.md
+  - Data Quality Assurances:
+    - data_qc.md
+  - DWI workflow:
+    - 'Overview': 'overview1.md'
+    - 'Estimating data quality': 'eddyqc.md'
+    - 'Preprocessing (MRtrix)': 'preproc_mrtrix.md'
+    - 'Tractography (MRtrix)': 'mrtrix.md'
+    - 'Bundle segmentation (TractSeg)': 'tractseg.md'
+    - 'Visualization of bundles': 'bundlevis.md'
+  - Visualization: 
+    - visualization.md
+
+
+theme: readthedocs
+theme_config:
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate 
+
+
+markdown_extensions:
+  - codehilite:
+      linenums: true
+      pygments_style: gruvbox-light
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+
+plugins:
+  - mkdocs-jupyter
+  - mknotebooks
+  - termynal
+
