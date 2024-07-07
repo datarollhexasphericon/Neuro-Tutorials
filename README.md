@@ -32,10 +32,10 @@ Ensure your data is of good quality for further processing.
 
 In the following guide, we will go through the following steps:
 
-A. Preprocessing (MRtrix)
-B. Tractography(MRtrix)
-C. Bundle segmentation (TractSeg)
-D. Bundle Visualization
+1. Preprocessing (MRtrix)
+2. Tractography(MRtrix)
+3. Bundle segmentation (TractSeg)
+4. Bundle Visualization
 
 This guide was very much based the [Andy's Brain Book](https://andysbrainbook.readthedocs.io/en/latest/MRtrix/MRtrix_Course), the [MRtrix official documentation](https://mrtrix.readthedocs.io/en/3.0_rc1/reference/scripts/dwipreproc.html), the [B.A.T.M.A.N tutorial](https://osf.io/fkyht/wiki/home/) and the [TractSeg official documentation](https://github.com/MIC-DKFZ/TractSeg).
 
