@@ -22,38 +22,42 @@ This repository contains a series of tutorials designed to help researchers and 
 
 ## Tutorials
 
-### Data Quality Control
+### 1. Data Quality Control
 
-Ensure your data is of good quality for further processing with these tutorials.
+Ensure your data is of good quality for further processing.
 
 - [Data Quality Control Overview](docs/data_qc.md)
 
-### Working with DWI data
+### 2. Working with DWI data
 
 In the following guide, we will go through the following steps:
 
-1. [Preprocessing (MRtrix)](#preprocessing-(mrtrix))
-2. [Tractography(MRtrix)](#tractography-(mrtrix))
-3. [Bundle segmentation (TractSeg)](#bundle-segmentation-(tractseg))
-4. [Visualization of bundles](#visualization-of-bundles)
+A. Preprocessing (MRtrix)
+B. Tractography(MRtrix)
+C. Bundle segmentation (TractSeg)
+D. Bundle Visualization
 
 This guide was very much based the [Andy's Brain Book](https://andysbrainbook.readthedocs.io/en/latest/MRtrix/MRtrix_Course), the [MRtrix official documentation](https://mrtrix.readthedocs.io/en/3.0_rc1/reference/scripts/dwipreproc.html), the [B.A.T.M.A.N tutorial](https://osf.io/fkyht/wiki/home/) and the [TractSeg official documentation](https://github.com/MIC-DKFZ/TractSeg).
 
-#### MRtrix
+#### A. Preprocessing (MRtrix)
 
-Learn how to work with MRtrix, a set of tools designed for the processing of diffusion MRI data.
+Learn how to work with MRtrix for the processing of diffusion MRI data.
 
-- [MRtrix Overview](docs/mrtrix.md)
 - [Preprocessing with MRtrix](docs/preproc_mrtrix.md)
 
+#### B. Tractography (MRtrix)
 
-#### TractSeg
+Generate anatomically constrained tractograms.
+
+- [MRtrix Overview](docs/mrtrix.md)
+
+#### C. Bundle segmentation (TractSeg)
 
 Automate the segmentation of white matter tracts using TractSeg.
 
 - [TractSeg Overview](docs/tractseg.md)
 
-#### Bundle Visualization
+#### D. Bundle Visualization
 
 Visualize fiber bundles effectively.
 
